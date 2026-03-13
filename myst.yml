@@ -14,17 +14,6 @@ project:
   toc:
     # ── Introduction ──
     - file: intro.md
-    # ── Part I: SPARQL Basics ──
-    - file: rdf-basics.md
-    - file: first-queries.md
-    # ── Part II: Core SPARQL Features ──
-    - file: filtering.md
-    - file: aggregation.md
-    - file: optional-union.md
-    # ── Part III: Advanced SPARQL ──
-    - file: named-graphs.md
-    - file: update.md
-    - file: federated.md
 
 site:
   template: book-theme
