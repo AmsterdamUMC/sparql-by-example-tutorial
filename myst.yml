@@ -1,0 +1,47 @@
+version: 1
+
+project:
+  title: Learning SPARQL By Example
+  github: AmsterdamUMC/sparql-tutorial
+  authors:
+    - name: Vincent Emonet
+    - name: Pauline Lubet
+    - name: Tarcisio Mendes
+    - name: Ana-Claudia Sima
+    - name: Jerven Bolleman
+    - name: Andra Waagmeester
+      orcid: 0000-0001-9773-4008
+  toc:
+    # ── Introduction ──
+    - file: intro.md
+    # ── Part I: SPARQL Basics ──
+    - file: rdf-basics.md
+    - file: first-queries.md
+    # ── Part II: Core SPARQL Features ──
+    - file: filtering.md
+    - file: aggregation.md
+    - file: optional-union.md
+    # ── Part III: Advanced SPARQL ──
+    - file: named-graphs.md
+    - file: update.md
+    - file: federated.md
+
+site:
+  template: book-theme
+  options:
+    style: _static/metadata.css
+    folders: true
+  # ── Site-wide footer: affiliations ───────────────────────────────────────
+  parts:
+    footer: >-
+      <div class="footer-affiliations">
+        <span class="footer-affil-label">Affiliations:</span>
+        <a href="https://ror.org/002n09z45" target="_blank" class="footer-affil">
+          <img src="https://raw.githubusercontent.com/ror-community/ror-logos/main/ror-icon-rgb.svg"
+               alt="ROR" class="footer-affil-icon">SIB Swiss Institute of Bioinformatics
+        </a>
+        <a href="https://ror.org/05grdyy37" target="_blank" class="footer-affil">
+          <img src="https://raw.githubusercontent.com/ror-community/ror-logos/main/ror-icon-rgb.svg"
+               alt="ROR" class="footer-affil-icon">Amsterdam UMC
+        </a>
+      </div>

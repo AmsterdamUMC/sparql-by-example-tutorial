@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: If you use this resource, please cite it using these metadata.
+title: Learning SPARQL By Example
+authors:
+- family-names: Emonet
+  given-names: Vincent
+  affiliation: SIB Swiss Institute of Bioinformatics
+- family-names: Lubet
+  given-names: Pauline
+  affiliation: Amsterdam UMC
+- family-names: Mendes
+  given-names: Tarcisio
+  affiliation: SIB Swiss Institute of Bioinformatics
+- family-names: Sima
+  given-names: Ana-Claudia
+  affiliation: SIB Swiss Institute of Bioinformatics
+- family-names: Bolleman
+  given-names: Jerven
+  affiliation: SIB Swiss Institute of Bioinformatics
+- family-names: Waagmeester
+  given-names: Andra
+  orcid: https://orcid.org/0000-0001-9773-4008
+  affiliation: Amsterdam UMC
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0/
