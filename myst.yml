@@ -2,7 +2,7 @@ version: 1
 
 project:
   title: Learning SPARQL By Example
-  github: AmsterdamUMC/sparql-tutorial
+  github: AmsterdamUMC/sparql-by-example-tutorial
   authors:
     - name: Vincent Emonet
     - name: Pauline Lubet
