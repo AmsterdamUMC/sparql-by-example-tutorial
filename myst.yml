@@ -6,14 +6,19 @@ project:
   authors:
     - name: Vincent Emonet
     - name: Pauline Lubet
+      orcid: 0009-0006-1234-2915
     - name: Tarcisio Mendes
     - name: Ana-Claudia Sima
     - name: Jerven Bolleman
     - name: Andra Waagmeester
       orcid: 0000-0001-9773-4008
   toc:
-    # ── Introduction ──
     - file: intro.md
+    - file: sparql-why.md
+    - file: sib-tools.md
+    - file: workflow-demo.md
+    - file: group-work.md
+    - file: discussion.md
 
 site:
   template: book-theme
